@@ -1,0 +1,36 @@
+{
+  "heroes": [
+    {
+      "name": "Tracer",
+      "role": "DPS",
+      "health": "150",
+      "damage": "Pulse Pistols: 12 per shot",
+      "abilities": [
+        {"name": "Blink", "desc": "Quick dash forward", "cd": "3s"},
+        {"name": "Recall", "desc": "Rewind time to heal and reposition", "cd": "12s"},
+        {"name": "Pulse Bomb (Ultimate)", "desc": "Throw a sticky bomb", "cd": "Ult"}
+      ],
+      "strengths": ["Mobility", "Flanking", "1v1 pressure"],
+      "weaknesses": ["Low HP", "No sustain"],
+      "synergies": ["Zarya", "Kiriko"],
+      "counters": ["Moira", "Torbjörn"]
+    },
+    {
+      "name": "Reinhardt",
+      "role": "Tank",
+      "health": "300 HP + 200 Armor",
+      "damage": "Rocket Hammer: 85 per swing",
+      "abilities": [
+        {"name": "Barrier Field", "desc": "Project a large forward-facing shield", "cd": "Regen"},
+        {"name": "Charge", "desc": "Rush forward and pin enemies", "cd": "8s"},
+        {"name": "Fire Strike", "desc": "Launch a fiery projectile", "cd": "6s"},
+        {"name": "Earthshatter (Ultimate)", "desc": "Stun all enemies in front", "cd": "Ult"}
+      ],
+      "strengths": ["Frontline", "Blocking", "Brawling"],
+      "weaknesses": ["Ranged poke", "Airborne threats"],
+      "synergies": ["Lucio", "Ana"],
+      "counters": ["Pharah", "Mei"]
+    }
+    // Add more heroes here!
+  ]
+}
